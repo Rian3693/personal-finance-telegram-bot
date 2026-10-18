@@ -6,7 +6,7 @@ real bot or real data.
 ## 1. Set up an isolated demo
 
 1. In Telegram, create a **new** bot with @BotFather (e.g. `my_finance_demo_bot`). Do not reuse the real bot's token.
-2. Run the bot from **this portfolio folder** (it contains no data files), with a `.env` that has only:
+2. Run the bot from **this portfolio folder** (`python src/telegram_bot.py`; it contains no data files), with a `.env` that has only:
    - `TELEGRAM_BOT_TOKEN` = the demo bot's token
    - `TELEGRAM_CHAT_ID` = your user id
    Leave the AI keys empty unless you want to show an AI feature (each call costs money).
