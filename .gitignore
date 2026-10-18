@@ -1,0 +1,34 @@
+# --- Secrets ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Personal data written by the bot at runtime -------------------------------
+# Every *.json file is user data (portfolio, bank balances, spending, plans, receipts
+# index, API spend). The code ships none; the bot creates them on first use.
+*.json
+*.pickle
+receipts/
+backups/
+company_reports/
+weekly_reports/
+debug_reports/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+# ...except the curated, synthetic-data screenshots for the README
+!docs/screenshots/*.png
+
+# --- Logs and process files --------------------------------------------------
+*.log
+*.pid
+
+# --- Python / tooling ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.vscode/
+.claude/
+.idea/

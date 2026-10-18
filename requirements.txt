@@ -1,0 +1,23 @@
+# Stock Agent Dependencies
+yfinance>=0.2.36
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+openai>=1.12.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+asyncio-throttle>=1.0.2
+rich>=13.7.0
+plotly>=5.18.0
+ta>=0.11.0
+finnhub-python>=2.4.19
+praw>=7.7.1
+textblob>=0.18.0
+newspaper3k>=0.2.8
+feedparser>=6.0.10
+win10toast>=0.9  # Windows notifications
+python-telegram-bot>=20.0  # Telegram bot (v20+ API: Application, filters)
+anthropic>=0.25.0
+pytz>=2024.1
